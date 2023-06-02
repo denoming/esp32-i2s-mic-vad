@@ -1,0 +1,4 @@
+[submodule "components/webrtc-vad"]
+	path = components/webrtc-vad
+	url = https://github.com/karz0n/webrtc-vad.git
+	branch = esp32-idf

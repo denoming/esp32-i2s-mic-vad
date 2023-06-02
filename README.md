@@ -1,11 +1,14 @@
-# ESP32 I2S Microphone VAD Example
+# ESP32 I2S MIC VAD
 
-## Prerequisites
+## Dependencies
 
-Install Webrtc-VAD library:
-```shell
-$ cd ~/Downlods
-$ git clone -b esp32-idf https://github.com/karz0n/webrtc-vad
-$ cd <project-path>/components
-$ ln -s $HOME/Downloads/webrtc-vad webrtc-vad
-```
+* ESP-IDF (ver. 4.4.3)
+* WebRTC-VAD
+
+## Cloning
+
+$ git clone ...
+$ cd esp32-i2s-mic-vad
+$ git submodule update --init --recursive
+$ cd components/webrtc-vad
+$ git checkout esp32-idf
