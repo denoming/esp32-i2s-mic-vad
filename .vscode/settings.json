@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "freertos.h": "c",
+        "esp_idf_version.h": "c"
+    }
+}
