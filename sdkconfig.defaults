@@ -1,0 +1,13 @@
+# Disable color output (wrong output colors sometimes)
+CONFIG_LOG_COLORS=n
+
+# Config ESP32 CPU frequency
+CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_240=y
+
+# Config ESP32 Tool
+CONFIG_ESPTOOLPY_FLASHFREQ_80M=y
+CONFIG_ESPTOOLPY_FLASHMODE_QIO=y
+CONFIG_ESPTOOLPY_FLASHSIZE_4MB=y
+
+# Increase FreeRTOS clock frequency
+CONFIG_FREERTOS_HZ=1000
