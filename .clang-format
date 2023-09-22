@@ -1,0 +1,36 @@
+---
+Language: Cpp
+BasedOnStyle: WebKit
+AlignAfterOpenBracket: Align
+AlignOperands: Align
+AlignTrailingComments: true
+AllowShortFunctionsOnASingleLine: None
+AlwaysBreakAfterReturnType: All
+AlwaysBreakTemplateDeclarations: Yes
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterCaseLabel: false
+  AfterClass: false
+  AfterEnum: false
+  AfterFunction: true
+  AfterNamespace: false
+  AfterStruct: false
+  AfterUnion: false
+  AfterExternBlock: false
+  BeforeCatch: false
+  BeforeElse: false
+  BeforeLambdaBody: false
+  BeforeWhile: true
+Cpp11BracedListStyle: true
+SpaceBeforeCpp11BracedList: false
+FixNamespaceComments: true
+NamespaceIndentation: None
+SortIncludes: Never
+SortUsingDeclarations: false
+SpaceAfterCStyleCast: true
+SpacesInContainerLiterals: false
+SpaceAfterTemplateKeyword: false
+ColumnLimit: 100
+BinPackArguments: false
+BinPackParameters: false
+...
