@@ -47,11 +47,6 @@ dependencies.*
 !.vscode/extensions.json
 !.vscode/*.code-snippets
 
-# Exclude stuff from server folder
-server/node_modules/*
-server/dist/*
-server/*.raw
-
 # Logs
 logs
 *.log
